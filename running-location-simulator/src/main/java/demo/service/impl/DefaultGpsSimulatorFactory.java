@@ -9,16 +9,22 @@ import demo.model.GpsSimulatorRequest;
 import demo.model.Leg;
 import demo.model.Point;
 import demo.service.GpsSimulatorFactory;
+import demo.service.PathService;
 import demo.service.PositionService;
 import demo.support.NavUtils;
 import demo.task.LocationSimulator;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicLong;
 
+@Service
 public class DefaultGpsSimulatorFactory implements GpsSimulatorFactory {
+
+    @Autowired
+    private PathService pathService;
 
     @Autowired
     private PositionService positionService;
