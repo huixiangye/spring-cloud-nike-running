@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/edging-service/edging-service.iml" filepath="$PROJECT_DIR$/edging-service/edging-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/platform/eureka/eureka.iml" filepath="$PROJECT_DIR$/platform/eureka/eureka.iml" />
       <module fileurl="file://$PROJECT_DIR$/platform/hystrix/hystrix.iml" filepath="$PROJECT_DIR$/platform/hystrix/hystrix.iml" />
       <module fileurl="file://$PROJECT_DIR$/platform/platform.iml" filepath="$PROJECT_DIR$/platform/platform.iml" />
